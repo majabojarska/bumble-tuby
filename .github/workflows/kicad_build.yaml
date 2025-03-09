@@ -52,10 +52,10 @@ jobs:
       - name: Check diff for create date changes
         run: |
           if [ -z "$(git diff --ignore-matching-lines='\/CreationDate \(D:' --ignore-matching-lines='<title>SVG Image created as .+.svg date')" ]; then
+            echo "Detected relevant artifact changes"
+          else
             echo "No relevant changes detected. Cleaning repo state."
             git clean -fdx
-          else
-            echo "Detected relevant artifact changes"
           fi
 
       - name: Create pull request
