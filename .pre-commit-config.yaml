@@ -6,4 +6,4 @@ repos:
         entry: make erc
         language: system
         pass_filenames: false
-        files: \.kicad_sch$
+        files: \.(kicad_sch|kicad_pcb|kicad_pro)$
