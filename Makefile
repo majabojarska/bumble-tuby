@@ -1,7 +1,18 @@
 BUILD_DIR ?= build
 STATIC_DIR ?= static
 
-all: erc schematics bom
+all: artifacts
+
+
+.PHONY: artifacts
+artifacts: erc schematics bom
+
+.PHONY: artifacts-with-diff-check
+artifacts-with-diff-check: artifacts
+	if [[ $(git status --porcelain) != '' ]]; then
+  		echo "Generated artifacts have changed"
+		exit 1
+	fi
 
 .PHONY: schematics
 schematics:
