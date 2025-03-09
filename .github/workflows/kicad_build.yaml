@@ -62,8 +62,8 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           branch: update-kicad-artifacts
-          commit-message: Update dependencies
-          title: Update dependencies
+          commit-message: Update KiCad artifacts
+          title: Update KiCad artifacts
           body: |
             ## Beep boop, fresh artifacts 🤖. 
 
