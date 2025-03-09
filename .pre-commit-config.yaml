@@ -7,11 +7,3 @@ repos:
         language: system
         pass_filenames: false
         files: \.(kicad_sch|kicad_pcb|kicad_pro)$
-  - repo: local
-    hooks:
-      - id: kicad-artifacts
-        name: KiCad Artifacts
-        entry: artifacts-with-diff-check
-        language: system
-        pass_filenames: false
-        files: \.(kicad_sch|kicad_pcb|kicad_pro)$
