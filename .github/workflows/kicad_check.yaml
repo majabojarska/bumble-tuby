@@ -2,6 +2,13 @@ name: Check KiCad project
 
 on:
   push:
+    branches:
+      - "*"
+
+    # paths:
+    #   - "**.kicad_pro"
+    #   - "**.kicad_sch"
+    #   - "**.kicad_pcb"
 
 env:
   BUILD_DIR: erc
