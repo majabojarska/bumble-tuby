@@ -5,10 +5,10 @@ on:
     branches:
       - "*"
 
-    paths:
-      - "**.kicad_pro"
-      - "**.kicad_sch"
-      - "**.kicad_pcb"
+    # paths:
+    #   - "**.kicad_pro"
+    #   - "**.kicad_sch"
+    #   - "**.kicad_pcb"
 
 env:
   BUILD_DIR: erc
