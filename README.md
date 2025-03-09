@@ -24,6 +24,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
     - LM386: 10uF, 100nF
     - NE5532: 10uF, 100nF
 - [ ] Add power switch, LED
+- [ ] Design perfboard layout
 - [ ] PSU filtering? There might be switching noise leaking into the amp.
     - [Tube Cricket](https://beavisaudio.com/projects/TubeCricket/) appears to have something in place 
 - [ ] (?) Add a tone control section. Between tube stages?
