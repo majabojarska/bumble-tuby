@@ -8,6 +8,8 @@ on:
     # This is needed, otherwise commiting fresh artifacts will trigger this job again
     paths-ignore:
       - "static/**"
+  
+  workflow_dispatch:
 
 env:
   STATIC_DIR: "static"
