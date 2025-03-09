@@ -56,7 +56,7 @@ jobs:
             echo "Detected relevant artifact changes"
           else
             echo "No relevant changes detected. Cleaning repo state."
-            git clean -fdx
+            git restore ${{ env.STATIC_DIR }}
           fi
 
       - name: Create pull request
