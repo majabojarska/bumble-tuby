@@ -15,7 +15,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
 
 ### Circuit design
 
-- [ ] Add headphone output.
+- [x] Add headphone output.
 - [ ] Add effects loop:
     - FX send can be driven directly from the 2nd tube stage.
     - FX return needs a buffer before feeding into the power amp section. Can use the second half of the NE5532 for this.
