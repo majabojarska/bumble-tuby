@@ -25,7 +25,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
     - NE5532: 10uF, 100nF
 - [ ] Add power switch, LED
 - [ ] PSU filtering? There might be switching noise leaking into the amp.
-    - [Tube Cricket](https://beavisaudio.com/projects/TubeCricket/) has this figured out.
+    - [Tube Cricket](https://beavisaudio.com/projects/TubeCricket/) appears to have something in place 
 - [ ] (?) Add a tone control section. Between tube stages?
 - [ ] (?) Add gain adjustment for the power section (LM386 pins 1-8)
 
