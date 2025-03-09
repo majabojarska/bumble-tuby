@@ -3,8 +3,7 @@ name: Generate KiCad artifacts
 on:
   push:
     branches:
-      - "*"
-      # - main
+      - main
 
     # This is needed, otherwise commiting fresh artifacts will trigger this job again
     paths-ignore:
