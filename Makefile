@@ -10,7 +10,6 @@ erc:
 	kicad-cli sch erc amp/amp.kicad_sch --output $(BUILD_DIR)/amp_erc.rpt
 	cat $(BUILD_DIR)/amp_erc.rpt
 
-
 ######## ARTIFACTS
 
 .PHONY: artifacts
@@ -40,5 +39,3 @@ bom-csv:
 .PHONY: bom-md
 bom-md:
 	csvlook $(STATIC_DIR)/amp_bom.csv > $(STATIC_DIR)/amp_bom.md
-
-
