@@ -31,8 +31,10 @@ jobs:
           chown -R $(id -u):$(id -g) $PWD
 
       - name: Install dependencies
+        env:
+          DEBIAN_FRONTEND: noninteractive
         run: |
-          apt update && apt install make csvtool -y
+          apt update && apt install make csvkit -y
 
       - name: Link KiCad .config dir to root equivalent
         run: |
