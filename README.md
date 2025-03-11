@@ -21,17 +21,18 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
 
 - [x] Add headphone output.
 - [x] Add effects loop:
-    - FX send can be driven directly from the 2nd tube stage.
-    - FX return needs a buffer before feeding into the power amp section. Can use the second half of the NE5532 for this.
-    - What about operation modes? With/without effects loop. This would require a SPDT switch to either send the pre-amped signal into the effects chain, or directly into the buffer.
-- [ ] Add bypass capacitors on power supply lines:
-    - LM386: 10uF, 100nF
-    - NE5532: 10uF, 100nF
-- [ ] Add power switch, LED
+  - FX send can be driven directly from the 2nd tube stage.
+  - FX return needs a buffer before feeding into the power amp section. Can use the second half of the NE5532 for this.
+  - What about operation modes? With/without effects loop. This would require a SPDT switch to either send the pre-amped signal into the effects chain, or directly into the buffer.
+- [x] Add bypass capacitors on power supply lines:
+  - LM386: 10uF, 100nF
+  - NE5532: 10uF, 100nF
+- [x] Add power switch, LED
+- [ ] Bridge the two LM386s for twice the power
+  - https://runoffgroove.com/littlegem.html
 - [ ] Design perfboard layout
-- [ ] Consider bridging two LM386s for twice the power
-    - https://runoffgroove.com/littlegem.html
-- [ ] (?) Add a tone control section. Between tube stages?
+- [ ] Add a tone control section.
+  - Between tube stages?
 - [ ] (?) Add gain adjustment for the power section (LM386 pins 1-8)
 
 ### CI
