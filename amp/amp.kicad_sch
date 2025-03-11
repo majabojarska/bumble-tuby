@@ -3418,6 +3418,12 @@
 		(uuid "50ff40e5-e403-44a7-8a11-4c7862899690")
 	)
 	(junction
+		(at 168.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a573c95-1abd-492e-8fe4-80e9b0ce388b")
+	)
+	(junction
 		(at 307.34 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4275,16 +4281,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68616bd1-1ba7-4a6d-b29e-b6f580afaf94")
-	)
-	(wire
-		(pts
 			(xy 68.58 151.13) (xy 68.58 144.78)
 		)
 		(stroke
@@ -4545,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a262efcd-5df4-4dde-9009-dce14ce8508d")
+	)
+	(wire
+		(pts
 			(xy 68.58 162.56) (xy 68.58 166.37)
 		)
 		(stroke
@@ -4592,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "a96966b5-6c01-42c7-ae06-663ba42c9078")
+	)
+	(wire
+		(pts
+			(xy 168.91 113.03) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9931ecf-9a14-4126-8c6c-8ef87d17588c")
 	)
 	(wire
 		(pts
@@ -7808,73 +7824,6 @@
 			(project ""
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 182.88 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9403c709-386b-4d66-800c-2f5e5d10d665")
-		(property "Reference" "#PWR017"
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 179.07 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 182.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8512859-afca-48ea-a367-6bbe1cf53655")
-		)
-		(instances
-			(project "amp"
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
