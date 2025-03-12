@@ -28,8 +28,9 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
   - LM386: 10uF, 100nF
   - NE5532: 10uF, 100nF
 - [x] Add power switch, LED
-- [ ] Bridge the two LM386s for twice the power
+- ~[ ] Bridge the two LM386s for twice the power~
   - https://runoffgroove.com/littlegem.html
+- [ ] Use a Class D amp instead of the LM386s
 - [ ] Design perfboard layout
 - [ ] Add a tone control section.
   - Between tube stages?
