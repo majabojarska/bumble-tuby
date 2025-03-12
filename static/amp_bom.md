@@ -25,5 +25,5 @@
 | SW1                | PWR              |                     |   1 |     |
 | SW2                | FX Enable/Bypass |                     |   1 |     |
 | U1                 | NE5532           |                     |   1 |     |
-| U3                 | LM386            |                     |   1 |     |
+| U3                 | LM386-4          |                     |   1 |     |
 | V1                 | 12AX7            | Valve:Valve_Noval_P |   1 |     |
