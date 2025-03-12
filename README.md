@@ -30,7 +30,10 @@ This is a simple, hybrid guitar amplifier, made as a hobby project. More applica
 - [x] Add power switch, LED
 - ~[ ] Bridge the two LM386s for twice the power~
   - https://runoffgroove.com/littlegem.html
-- [ ] Use a Class D amp instead of the LM386s
+- [ ] Consider poweramp alternatives
+  - TDA2030
+    - Obsolete but cheap and widely available
+    - Widely used in many commercial guitar amps (or TDA2050)
 - [ ] Design perfboard layout
 - [ ] Add a tone control section.
   - Between tube stages?
