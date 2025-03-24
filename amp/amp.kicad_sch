@@ -3442,12 +3442,6 @@
 		(uuid "61b13ffc-963f-4c36-bef9-9723eb75c32c")
 	)
 	(junction
-		(at 246.38 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62211026-db17-441c-94e5-09e17e978426")
-	)
-	(junction
 		(at 266.7 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3572,12 +3566,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e05e9d96-3bf8-44b9-b3fd-15d90295944e")
-	)
-	(junction
-		(at 279.4 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef3ebfdf-f695-4700-9178-b9acd733baf3")
 	)
 	(junction
 		(at 129.54 187.96)
@@ -3743,16 +3731,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 76.2) (xy 246.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ce0dbe1-edce-4849-a338-f3379b9467ee")
-	)
-	(wire
-		(pts
 			(xy 196.85 137.16) (xy 199.39 137.16)
 		)
 		(stroke
@@ -3800,16 +3778,6 @@
 			(type default)
 		)
 		(uuid "0ee402ad-992c-48bc-b622-4192aca37012")
-	)
-	(wire
-		(pts
-			(xy 246.38 91.44) (xy 279.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe77be7-c349-48ed-b873-1ae05b151f9c")
 	)
 	(wire
 		(pts
@@ -3970,16 +3938,6 @@
 			(type default)
 		)
 		(uuid "2a504440-bd31-4f6b-a291-ced983aa2ff1")
-	)
-	(wire
-		(pts
-			(xy 279.4 105.41) (xy 279.4 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3251c54e-f1b2-4d84-b90a-2c7f313cffde")
 	)
 	(wire
 		(pts
@@ -4813,7 +4771,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 246.38 97.79)
+			(xy 246.38 76.2) (xy 246.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4910,16 +4868,6 @@
 			(type default)
 		)
 		(uuid "db581e7b-a506-45fd-a0d8-f739b73e5771")
-	)
-	(wire
-		(pts
-			(xy 279.4 97.79) (xy 279.4 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd3dda0d-185f-4aec-bd7c-b252de5253d9")
 	)
 	(wire
 		(pts
@@ -5418,76 +5366,6 @@
 			(project "amp"
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 279.4 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e4f975-d802-46ee-8d2d-9cf1e91ef11e")
-		(property "Reference" "R14"
-			(at 281.94 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 281.94 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 277.622 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 279.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 279.4 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c6bb6e4d-3b43-4d07-aadb-57e6a07fd5b2")
-		)
-		(pin "1"
-			(uuid "15a83352-f5dc-470a-8a79-7a52e223ea69")
-		)
-		(instances
-			(project "amp"
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "R14")
 					(unit 1)
 				)
 			)
