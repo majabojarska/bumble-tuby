@@ -1610,6 +1610,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "R_Potentiometer_1"
 			(pin_names
 				(offset 1.016)
@@ -3283,6 +3447,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CCW - decrease gain range\nCW - increase gain range"
+		(exclude_from_sim no)
+		(at 73.406 172.466 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "37a537db-0ff6-40f7-be25-6b8c9ba51ff2")
+	)
 	(text "Bypass\n"
 		(exclude_from_sim no)
 		(at 311.658 104.14 0)
@@ -3582,6 +3756,10 @@
 	(no_connect
 		(at 97.79 162.56)
 		(uuid "10bb0322-258b-489b-a2e1-d21c1e15ab59")
+	)
+	(no_connect
+		(at 64.77 166.37)
+		(uuid "3a0eee08-6c80-4180-a002-c0fd61cd3dca")
 	)
 	(no_connect
 		(at 124.46 36.83)
@@ -4261,16 +4439,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 176.53) (xy 68.58 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77223d35-2c6e-42d2-847d-2633c8043f94")
-	)
-	(wire
-		(pts
 			(xy 48.26 17.78) (xy 48.26 24.13)
 		)
 		(stroke
@@ -4308,6 +4476,16 @@
 			(type default)
 		)
 		(uuid "7ce368b9-f4d7-4868-acca-4d4e2339993a")
+	)
+	(wire
+		(pts
+			(xy 64.77 173.99) (xy 68.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d12b608-bca7-4e35-acde-a1cb8bb9da5b")
 	)
 	(wire
 		(pts
@@ -4531,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 68.58 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f438e3-aded-4f49-9dc8-917cc24646b6")
-	)
-	(wire
-		(pts
 			(xy 330.2 167.64) (xy 330.2 168.91)
 		)
 		(stroke
@@ -4651,6 +4819,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 173.99) (xy 68.58 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddc1792-96b4-445f-99df-c3192d5298d4")
+	)
+	(wire
+		(pts
 			(xy 180.34 102.87) (xy 186.69 102.87)
 		)
 		(stroke
@@ -4668,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "c0da1a7a-316f-4d0a-8684-be27eb16b44c")
+	)
+	(wire
+		(pts
+			(xy 68.58 162.56) (xy 68.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d89a18-67cb-47bb-a35b-0b1b0e375c5b")
 	)
 	(wire
 		(pts
@@ -6078,74 +6266,6 @@
 			(project "amp"
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 170.18 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f1c719c-0232-4eb0-bb4a-a3fb49b87b1b")
-		(property "Reference" "R2"
-			(at 74.93 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 72.39 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.802 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "500c5f85-3bb7-4022-bc16-ad8056c0d8e8")
-		)
-		(pin "1"
-			(uuid "54538cfb-69b9-4d89-b9a4-fcff02514b4e")
-		)
-		(instances
-			(project "amp"
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8333,6 +8453,79 @@
 			(project ""
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 64.77 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a699c2bd-909f-4d2a-8754-5600461492d3")
+		(property "Reference" "RV3"
+			(at 62.23 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 62.23 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd630aba-d0eb-426b-bd37-e399c6d33638")
+		)
+		(pin "3"
+			(uuid "70c58506-05fa-45c1-910b-c8450f4193b0")
+		)
+		(pin "1"
+			(uuid "6de6fa50-e29c-4028-871a-60c5e8b7fc52")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "RV3")
 					(unit 1)
 				)
 			)
