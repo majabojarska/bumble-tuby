@@ -3469,16 +3469,6 @@
 	)
 	(text "Bias\n"
 		(exclude_from_sim no)
-		(at 249.174 80.264 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e77f23a-bb04-4e4b-81e3-f2f125de7c0c")
-	)
-	(text "Bias\n"
-		(exclude_from_sim no)
 		(at 71.12 134.874 0)
 		(effects
 			(font
@@ -6582,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
+		(property "Value" "Vbias"
 			(at 26.67 30.4799 90)
 			(effects
 				(font
@@ -6983,7 +6973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
+		(property "Value" "Vbias"
 			(at 248.158 74.422 0)
 			(effects
 				(font
@@ -9629,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+6V"
+		(property "Value" "Vbias"
 			(at 76.2 125.7299 90)
 			(effects
 				(font
