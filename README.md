@@ -1,6 +1,8 @@
 # Bumble Tuby Guitar Amplifier
 
-This is a simple, hybrid guitar amplifier, made as a hobby project. More applicable for learning and practice, rather than anything else. Outputs around 1W of power.
+This is a simple, hybrid guitar amplifier, made as a hobby project.
+
+![DSO capture of amplification stage outputs](static/dso_sine_amplification.webp)
 
 ## Features
 
