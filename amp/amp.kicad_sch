@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "512e3d9b-1648-4f09-9748-8ed1e9d71853")
 	(paper "A3")
+	(title_block
+		(title "Bumble Tuby Guitar Amplifier")
+		(date "2025-04-05")
+		(company "Maja Bojarska")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
@@ -5764,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 153.67) (xy 44.45 162.56)
+			(xy 46.99 153.67) (xy 46.99 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 153.67) (xy 44.45 153.67)
+			(xy 43.18 153.67) (xy 46.99 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8892,15 +8897,15 @@
 		(dnp no)
 		(uuid "83d8396f-8aed-4215-be53-ca95eb5e5339")
 		(property "Reference" "J1"
-			(at 37.465 160.02 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Input"
-			(at 37.465 157.48 0)
+		(property "Value" "HI Input"
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,13 +8930,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 38.1 151.13 0)
+		(property "Description" "Guitar"
+			(at 38.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "S"
@@ -10544,7 +10548,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 44.45 162.56 0)
+		(at 46.99 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10553,7 +10557,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca4ed569-d15b-4997-abc3-af02a03aeccf")
 		(property "Reference" "#PWR01"
-			(at 44.45 168.91 0)
+			(at 46.99 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 167.64 0)
+			(at 46.99 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 162.56 0)
+			(at 46.99 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 162.56 0)
+			(at 46.99 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 44.45 162.56 0)
+			(at 46.99 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
