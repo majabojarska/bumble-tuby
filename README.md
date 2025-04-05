@@ -1,5 +1,8 @@
 # Bumble Tuby Guitar Amplifier
 
+[![Build](https://github.com/majabojarska/bumble-tuby/actions/workflows/kicad_build.yaml/badge.svg)](https://github.com/majabojarska/majabojarska.dev/actions/workflows/kicad_build.yaml)
+[![ERC](https://github.com/majabojarska/bumble-tuby/actions/workflows/kicad_check.yaml/badge.svg)](https://github.com/majabojarska/majabojarska.dev/actions/workflows/kicad_check.yaml)
+
 This is a simple, hybrid guitar amplifier, made as a hobby project.
 
 ![DSO capture of amplification stage outputs](static/dso_sine_amplification.webp)
