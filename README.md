@@ -41,10 +41,10 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - [ ] Add a tone control section.
   - Between tube stages?
 - [ ] Add screw terminals for vacuum tube connections
-- [ ] Mute speaker PA when headphone jack plugged in
-- [ ] Add headphone PA
+- [x] Mute speaker PA when headphone jack plugged in
+- [x] Add headphone PA
 - [x] Add gain adjustment for the power section (LM386 pins 1-8)
-- [ ] Split design into separate subschematics
+- [x] Split design into separate subschematics
   - How to express connections?
   - [Hierarchical sheets in KiCad](https://docs.kicad.org/9.0/en/eeschema/eeschema.html#drawing-hierarchical-sheets)
 - [ ] Add stereo line-in, [signal mixing](https://electronics.stackexchange.com/questions/103435/naively-mixing-two-or-perhaps-more-audio-signals)
