@@ -13,7 +13,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - Pre-amp based on the 12AX7 vacuum tube.
 - Power amplifier based on the LM386 IC.
 
-[![Schematic](https://github.com/majabojarska/ruby-tuby/blob/main/static/amp.svg?raw=true)](https://github.com/majabojarska/ruby-tuby/blob/main/static/amp.pdf)
+[![Schematic](static/amp.svg?raw=true)](static/amp.pdf)
 
 ### Bill of materials
 
