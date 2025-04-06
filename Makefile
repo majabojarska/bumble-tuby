@@ -24,7 +24,7 @@ schematics-pdf:
 
 .PHONY: schematics-svg
 schematics-svg:
-	kicad-cli sch export svg amp/amp.kicad_sch --black-and-white --output $(STATIC_DIR)
+	kicad-cli sch export svg amp/amp.kicad_sch --output $(STATIC_DIR)
 
 .PHONY: bom
 bom: bom-csv bom-md
