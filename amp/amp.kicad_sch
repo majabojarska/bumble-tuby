@@ -2340,256 +2340,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TPA3110_module:PCB_TPA3310"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 5.334 13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PCB_TPA3310_1_1"
-				(rectangle
-					(start -11.43 11.43)
-					(end 12.7 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "TPA3110"
-					(at 0.254 4.318 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 8.89 0)
-					(length 2.54)
-					(name "~{MUTE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 3.81 0)
-					(length 2.54)
-					(name "IN_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 1.27 0)
-					(length 2.54)
-					(name "IN_R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -1.27 0)
-					(length 2.54)
-					(name "IN_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -1.27 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 1.27 -6.35 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 8.89 180)
-					(length 2.54)
-					(name "OUT_L+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 6.35 180)
-					(length 2.54)
-					(name "OUT_L-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 1.27 180)
-					(length 2.54)
-					(name "OUT_R+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 -1.27 180)
-					(length 2.54)
-					(name "OUT_R-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_BJT:Q_NPN_CBE"
 			(pin_names
 				(offset 0)
@@ -3289,6 +3039,256 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "amp:PCB_TPA3310"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.334 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCB_TPA3310_1_1"
+				(rectangle
+					(start -11.43 11.43)
+					(end 12.7 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "TPA3110"
+					(at 0.254 4.318 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 8.89 0)
+					(length 2.54)
+					(name "~{MUTE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "IN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "IN_R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -1.27 0)
+					(length 2.54)
+					(name "IN_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name "OUT_L+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 6.35 180)
+					(length 2.54)
+					(name "OUT_L-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 1.27 180)
+					(length 2.54)
+					(name "OUT_R+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(name "OUT_R-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8105,7 +8105,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPA3110_module:PCB_TPA3310")
+		(lib_id "amp:PCB_TPA3310")
 		(at 341.63 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8114,21 +8114,19 @@
 		(dnp no)
 		(uuid "6112b52a-db03-4db5-901a-d87823bf8648")
 		(property "Reference" "U3"
-			(at 340.868 160.528 0)
+			(at 346.964 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 343.7733 161.29 0)
+			(at 341.63 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10737,46 +10735,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b2")
+			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b3")
 		)
 		(pin "11"
-			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eaa")
+			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eab")
 		)
 		(pin "13"
-			(uuid "c5105b86-f872-4457-a240-5ff3406fd014")
+			(uuid "c5105b86-f872-4457-a240-5ff3406fd015")
 		)
 		(pin "1"
-			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfa")
+			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfb")
 		)
 		(pin "2"
-			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d2")
+			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d3")
 		)
 		(pin "3"
-			(uuid "a70c08ad-551b-472a-96b5-a010f804b45f")
+			(uuid "a70c08ad-551b-472a-96b5-a010f804b460")
 		)
 		(pin "14"
-			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d66")
+			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d67")
 		)
 		(pin "8"
-			(uuid "02489d02-9366-4589-8bd0-3b5f118af44f")
+			(uuid "02489d02-9366-4589-8bd0-3b5f118af450")
 		)
 		(pin "12"
-			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a1")
+			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a2")
 		)
 		(pin "10"
-			(uuid "ee665781-11e9-4697-8623-298853681600")
+			(uuid "ee665781-11e9-4697-8623-298853681601")
 		)
 		(pin "7"
-			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038635")
+			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038636")
 		)
 		(pin "6"
-			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737375")
+			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737376")
 		)
 		(pin "5"
-			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f96")
+			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f97")
 		)
 		(pin "9"
-			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e7")
+			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e8")
 		)
 		(instances
 			(project ""
@@ -10912,46 +10910,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b2")
+			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b4")
 		)
 		(pin "11"
-			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eaa")
+			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eac")
 		)
 		(pin "13"
-			(uuid "c5105b86-f872-4457-a240-5ff3406fd014")
+			(uuid "c5105b86-f872-4457-a240-5ff3406fd016")
 		)
 		(pin "1"
-			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfa")
+			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfc")
 		)
 		(pin "2"
-			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d2")
+			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d4")
 		)
 		(pin "3"
-			(uuid "a70c08ad-551b-472a-96b5-a010f804b45f")
+			(uuid "a70c08ad-551b-472a-96b5-a010f804b461")
 		)
 		(pin "14"
-			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d66")
+			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d68")
 		)
 		(pin "8"
-			(uuid "02489d02-9366-4589-8bd0-3b5f118af44f")
+			(uuid "02489d02-9366-4589-8bd0-3b5f118af451")
 		)
 		(pin "12"
-			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a1")
+			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a3")
 		)
 		(pin "10"
-			(uuid "ee665781-11e9-4697-8623-298853681600")
+			(uuid "ee665781-11e9-4697-8623-298853681602")
 		)
 		(pin "7"
-			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038635")
+			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038637")
 		)
 		(pin "6"
-			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737375")
+			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737377")
 		)
 		(pin "5"
-			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f96")
+			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f98")
 		)
 		(pin "9"
-			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e7")
+			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e9")
 		)
 		(instances
 			(project ""
@@ -11016,46 +11014,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b2")
+			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b5")
 		)
 		(pin "11"
-			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eaa")
+			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3ead")
 		)
 		(pin "13"
-			(uuid "c5105b86-f872-4457-a240-5ff3406fd014")
+			(uuid "c5105b86-f872-4457-a240-5ff3406fd017")
 		)
 		(pin "1"
-			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfa")
+			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfd")
 		)
 		(pin "2"
-			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d2")
+			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d5")
 		)
 		(pin "3"
-			(uuid "a70c08ad-551b-472a-96b5-a010f804b45f")
+			(uuid "a70c08ad-551b-472a-96b5-a010f804b462")
 		)
 		(pin "14"
-			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d66")
+			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d69")
 		)
 		(pin "8"
-			(uuid "02489d02-9366-4589-8bd0-3b5f118af44f")
+			(uuid "02489d02-9366-4589-8bd0-3b5f118af452")
 		)
 		(pin "12"
-			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a1")
+			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a4")
 		)
 		(pin "10"
-			(uuid "ee665781-11e9-4697-8623-298853681600")
+			(uuid "ee665781-11e9-4697-8623-298853681603")
 		)
 		(pin "7"
-			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038635")
+			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038638")
 		)
 		(pin "6"
-			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737375")
+			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737378")
 		)
 		(pin "5"
-			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f96")
+			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f99")
 		)
 		(pin "9"
-			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e7")
+			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90ea")
 		)
 		(instances
 			(project ""
@@ -11256,46 +11254,46 @@
 			)
 		)
 		(pin "4"
-			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b2")
+			(uuid "3df436c6-2cc0-4a97-a97d-dc5c2c2776b6")
 		)
 		(pin "11"
-			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eaa")
+			(uuid "4054c6cc-f57f-41e9-833c-446cfa6c3eae")
 		)
 		(pin "13"
-			(uuid "c5105b86-f872-4457-a240-5ff3406fd014")
+			(uuid "c5105b86-f872-4457-a240-5ff3406fd018")
 		)
 		(pin "1"
-			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfa")
+			(uuid "24a40e66-cf9b-4d7e-9e73-d050bad63cfe")
 		)
 		(pin "2"
-			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d2")
+			(uuid "a77b6fe4-9cf4-4390-9cf5-3381cfb8f1d6")
 		)
 		(pin "3"
-			(uuid "a70c08ad-551b-472a-96b5-a010f804b45f")
+			(uuid "a70c08ad-551b-472a-96b5-a010f804b463")
 		)
 		(pin "14"
-			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d66")
+			(uuid "99dfd9cb-0bee-4f8a-97e3-67c0c44d3d6a")
 		)
 		(pin "8"
-			(uuid "02489d02-9366-4589-8bd0-3b5f118af44f")
+			(uuid "02489d02-9366-4589-8bd0-3b5f118af453")
 		)
 		(pin "12"
-			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a1")
+			(uuid "2bdc8cc4-ca7c-4ffd-9628-8964f6c6d4a5")
 		)
 		(pin "10"
-			(uuid "ee665781-11e9-4697-8623-298853681600")
+			(uuid "ee665781-11e9-4697-8623-298853681604")
 		)
 		(pin "7"
-			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038635")
+			(uuid "ad813c29-9c6b-4ae4-8c3b-d2d2d2038639")
 		)
 		(pin "6"
-			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737375")
+			(uuid "c5e40bfc-5cce-43d8-b8da-b7e5c5737379")
 		)
 		(pin "5"
-			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f96")
+			(uuid "71ac692d-84d7-42ea-9f11-184dd2206f9a")
 		)
 		(pin "9"
-			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90e7")
+			(uuid "d3cb0f1a-795b-4691-af5f-1efe731b90eb")
 		)
 		(instances
 			(project ""
