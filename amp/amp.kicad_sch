@@ -13383,7 +13383,7 @@
 				)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 76.2 146.05 90)
 			(effects
 				(font
