@@ -4,13 +4,8 @@ on:
   push:
     branches:
       - "*"
-  
-  pull_request:
-
-    # paths:
-    #   - "**.kicad_pro"
-    #   - "**.kicad_sch"
-    #   - "**.kicad_pcb"
+      
+  workflow_dispatch:
 
 env:
   BUILD_DIR: erc
