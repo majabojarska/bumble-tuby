@@ -73,8 +73,8 @@ jobs:
 
             [1]: https://github.com/peter-evans/create-pull-request
 
-      - name: Enable automerge
+      - uses: peter-evans/enable-pull-request-automerge@v3
         if: ${{ steps.create-pull-request.outputs.pull-request-number }}
-        run: gh pr merge --merge --auto "${{ steps.create-pull-request.outputs.pull-request-number }}"
-        env:
-          GH_TOKEN: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.create-pull-request.outputs.pull-request-number }}
