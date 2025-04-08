@@ -18,9 +18,6 @@ jobs:
   build:
     name: Generate KiCad artifacts
     runs-on: ubuntu-latest
-    permissions: # Needed for PR creation
-      contents: write
-      pull-requests: write
     container:
       image: "kicad/kicad:9.0"
       options: --user root
@@ -62,6 +59,7 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
           branch: update-kicad-artifacts
           commit-message: Update KiCad artifacts
           title: Update KiCad artifacts
