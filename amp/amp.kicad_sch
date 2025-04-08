@@ -242,260 +242,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:NE5532"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NE5532"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NE5532_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE5532_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE5532_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -4696,6 +4442,12 @@
 		(uuid "4cd5dc1c-15ab-424b-84c9-f629b5d7db10")
 	)
 	(junction
+		(at 379.73 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e15f24-09c2-4263-8902-9b63a983080a")
+	)
+	(junction
 		(at 266.7 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,12 +4488,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b1005bb-3862-4e0f-a37a-736fe17a5cfe")
-	)
-	(junction
-		(at 379.73 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ceb8d9a-c8f1-4147-bb9a-ff1ce789a27d")
 	)
 	(junction
 		(at 325.12 116.84)
@@ -4966,10 +4712,10 @@
 		(uuid "e88da705-8e46-45c1-aba3-1c8882619cd2")
 	)
 	(junction
-		(at 379.73 40.64)
+		(at 379.73 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd58f5c9-d92d-4b29-bda6-9dfd1dc54c60")
+		(uuid "ea845bb8-0d4e-4573-972c-a195360d4ceb")
 	)
 	(junction
 		(at 303.53 68.58)
@@ -5311,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 25.4) (xy 365.76 25.4)
+			(xy 372.11 25.4) (xy 363.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5541,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 25.4) (xy 372.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2974db0c-43b7-4f00-9190-77835b55e101")
+	)
+	(wire
+		(pts
 			(xy 242.57 54.61) (xy 245.11 54.61)
 		)
 		(stroke
@@ -5658,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "3683bfdf-7b78-4b76-a53a-a0de7210d4e1")
-	)
-	(wire
-		(pts
-			(xy 379.73 25.4) (xy 391.16 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d0087f-395b-4953-a9e8-59f6c049fb5d")
 	)
 	(wire
 		(pts
@@ -6311,7 +6057,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 25.4) (xy 372.11 25.4)
+			(xy 392.43 25.4) (xy 379.73 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7081,6 +6827,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 25.4) (xy 379.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8880da1-0634-4dcd-92e2-76e00edeadbc")
+	)
+	(wire
+		(pts
 			(xy 245.11 62.23) (xy 242.57 62.23)
 		)
 		(stroke
@@ -7088,6 +6844,16 @@
 			(type default)
 		)
 		(uuid "b8a7267b-6ad3-46a9-ae0b-a34b42f60726")
+	)
+	(wire
+		(pts
+			(xy 379.73 36.83) (xy 379.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90aefe2-7899-4f1c-a595-d8d622617f0a")
 	)
 	(wire
 		(pts
@@ -7481,7 +7247,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 40.64) (xy 365.76 40.64)
+			(xy 372.11 40.64) (xy 363.22 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7531,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 40.64) (xy 372.11 40.64)
+			(xy 392.43 40.64) (xy 379.73 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7608,6 +7374,16 @@
 			(type default)
 		)
 		(uuid "e47988b0-fb9a-41c7-b179-3e8f3331a27f")
+	)
+	(wire
+		(pts
+			(xy 379.73 40.64) (xy 372.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5127b91-7fbd-47da-9417-68b2b006aea2")
 	)
 	(wire
 		(pts
@@ -7848,16 +7624,6 @@
 			(type default)
 		)
 		(uuid "f78c3763-1234-44f8-9a3e-25995ff1fc04")
-	)
-	(wire
-		(pts
-			(xy 379.73 40.64) (xy 391.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d1e671-fa36-465b-b184-7e81ff86173b")
 	)
 	(wire
 		(pts
@@ -8137,7 +7903,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 365.76 25.4 180)
+		(at 363.22 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8147,7 +7913,7 @@
 		)
 		(uuid "3553c29b-2eee-43dc-afe4-bd283a128e26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.1462 25.4 0)
+			(at 356.6062 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +8629,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 365.76 40.64 180)
+		(at 363.22 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8873,7 +8639,7 @@
 		)
 		(uuid "c7da2960-29e2-460b-9160-b261ffc3c069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.9043 40.64 0)
+			(at 356.3643 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,94 +9547,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 382.27 33.02 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2936af63-b544-444b-b1dd-89c8e867dd45")
-		(property "Reference" "U5"
-			(at 381 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 381 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 382.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 382.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5aea8d5a-7696-4a5d-8ee0-cddf0cac251d")
-		)
-		(pin "6"
-			(uuid "af374800-2687-4058-affd-a9e330670de3")
-		)
-		(pin "5"
-			(uuid "c90bdbe5-fb16-4ecb-84dd-a2ce4f987e94")
-		)
-		(pin "1"
-			(uuid "6205ad60-e272-4661-b495-14ff4a1a3f4d")
-		)
-		(pin "3"
-			(uuid "7ac2c142-047a-433f-8169-32719400946f")
-		)
-		(pin "4"
-			(uuid "23a580d3-eb82-4e23-9969-f87b5624861b")
-		)
-		(pin "7"
-			(uuid "b293b02d-d03d-4af6-871d-a564a226472e")
-		)
-		(pin "8"
-			(uuid "cb9dffde-3b99-489f-b64f-adf9aadc2024")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "amp:Polarity_Protection_4A")
 		(at 54.61 26.67 0)
 		(unit 1)
@@ -10071,91 +9749,6 @@
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "C9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 383.54 57.15 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3556cc23-b2ed-4a91-8ba2-e270aa4638ef")
-		(property "Reference" "U6"
-			(at 383.54 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 383.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 383.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 383.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 383.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "0a35ae6a-ac94-44d1-87f5-1e150a45ab93")
-		)
-		(pin "4"
-			(uuid "d4fc4f07-46fa-4cfe-9301-73a6ea3377e9")
-		)
-		(pin "1"
-			(uuid "24b67ac6-eca4-4aa8-bd26-fbc6affe9abc")
-		)
-		(pin "2"
-			(uuid "4d2491f8-5ac3-44bd-968a-e25631646cd4")
-		)
-		(pin "3"
-			(uuid "cd0d8143-3576-418a-9b3f-22fc9bb905f7")
-		)
-		(pin "7"
-			(uuid "a0b9d95d-50af-40e2-9234-af05f353f156")
-		)
-		(pin "6"
-			(uuid "dbf017f5-ec27-4fe2-bf94-1f45d138e3a2")
-		)
-		(pin "5"
-			(uuid "de98e14e-14ac-4a93-8666-bf262bd766a6")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U6")
-					(unit 2)
 				)
 			)
 		)
@@ -11039,6 +10632,76 @@
 			(project "amp"
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 379.73 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2f53ab-739e-4c3e-8409-ace085ef8a5b")
+		(property "Reference" "C24"
+			(at 383.54 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 383.54 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.7648 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 379.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fc2cef-1e72-44ca-9990-a8044c0c0677")
+		)
+		(pin "2"
+			(uuid "670705b0-3c8f-486f-bc6c-d5f5ea3c8f9e")
+		)
+		(instances
+			(project "amp"
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12814,6 +12477,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 257.81 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a369e53-5195-4b7f-b7c6-4b0f8ddad0d3")
+		(property "Reference" "U7"
+			(at 257.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 257.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 259.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "430fe140-f3f1-4302-a73e-cb9f5eeec4db")
+		)
+		(pin "3"
+			(uuid "2fc7a6bf-96e1-42a1-a25c-5f26ead781d6")
+		)
+		(pin "12"
+			(uuid "f7e6f65e-9f14-4946-99bc-e872096ac44f")
+		)
+		(pin "14"
+			(uuid "5ccf52a1-af5f-45c6-b7bf-ae4e1a06348b")
+		)
+		(pin "4"
+			(uuid "0dd3620a-3b05-4efa-a904-21cc34dba025")
+		)
+		(pin "11"
+			(uuid "4f458e1a-622e-4e4a-8f92-2658909fcd02")
+		)
+		(pin "6"
+			(uuid "41bed6bc-fb64-404b-9ee8-6dc3366aed8b")
+		)
+		(pin "9"
+			(uuid "ea3f0afa-2460-4ece-b2d6-951bf9ed733b")
+		)
+		(pin "5"
+			(uuid "903d8d5a-22b5-459c-9ef0-95d1e238626d")
+		)
+		(pin "1"
+			(uuid "050493ab-fae2-49fc-b6f7-69dc3e512e75")
+		)
+		(pin "2"
+			(uuid "00ea525c-2ac4-428f-8d98-af61384b7d85")
+		)
+		(pin "7"
+			(uuid "614ff61f-868c-49b6-a14a-902fcb811197")
+		)
+		(pin "10"
+			(uuid "c5c75621-d851-4c60-8bb0-83343d9706db")
+		)
+		(pin "8"
+			(uuid "90750e59-55be-4ee6-9512-e910982edac7")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 76.2 151.13 90)
 		(unit 1)
@@ -12952,6 +12719,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 383.54 57.15 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be360c4-e052-46a6-8109-392bc09991da")
+		(property "Reference" "U7"
+			(at 383.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 383.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 384.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 383.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "430fe140-f3f1-4302-a73e-cb9f5eeec4db")
+		)
+		(pin "3"
+			(uuid "2fc7a6bf-96e1-42a1-a25c-5f26ead781d6")
+		)
+		(pin "12"
+			(uuid "f7e6f65e-9f14-4946-99bc-e872096ac44f")
+		)
+		(pin "14"
+			(uuid "5ccf52a1-af5f-45c6-b7bf-ae4e1a06348b")
+		)
+		(pin "4"
+			(uuid "0dd3620a-3b05-4efa-a904-21cc34dba025")
+		)
+		(pin "11"
+			(uuid "4f458e1a-622e-4e4a-8f92-2658909fcd02")
+		)
+		(pin "6"
+			(uuid "41bed6bc-fb64-404b-9ee8-6dc3366aed8b")
+		)
+		(pin "9"
+			(uuid "ea3f0afa-2460-4ece-b2d6-951bf9ed733b")
+		)
+		(pin "5"
+			(uuid "903d8d5a-22b5-459c-9ef0-95d1e238626d")
+		)
+		(pin "1"
+			(uuid "050493ab-fae2-49fc-b6f7-69dc3e512e75")
+		)
+		(pin "2"
+			(uuid "00ea525c-2ac4-428f-8d98-af61384b7d85")
+		)
+		(pin "7"
+			(uuid "614ff61f-868c-49b6-a14a-902fcb811197")
+		)
+		(pin "10"
+			(uuid "c5c75621-d851-4c60-8bb0-83343d9706db")
+		)
+		(pin "8"
+			(uuid "90750e59-55be-4ee6-9512-e910982edac7")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "U7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 151.13 270)
 		(unit 1)
@@ -13084,178 +12955,6 @@
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "R19")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 312.42 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "992db7a0-3d2d-4423-8cc9-a408b280a8a8")
-		(property "Reference" "U6"
-			(at 312.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 312.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 312.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "827641df-0775-4e15-8557-f13d1a6bf15c")
-		)
-		(pin "1"
-			(uuid "aae41f67-9bb8-448e-bac0-bc1533de1f71")
-		)
-		(pin "7"
-			(uuid "ba580e60-da73-420c-b142-90d7b05f4329")
-		)
-		(pin "2"
-			(uuid "9ceb0917-b0ce-49c8-ac2f-1e66977367cb")
-		)
-		(pin "3"
-			(uuid "994a88c4-d0e3-4120-ba22-f40441471252")
-		)
-		(pin "4"
-			(uuid "37de111d-75d0-4aae-b796-51ec86b7faef")
-		)
-		(pin "5"
-			(uuid "75ccca9a-3936-4860-8832-9e29701ab652")
-		)
-		(pin "6"
-			(uuid "28c91e06-671c-4a04-b854-fad397383634")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 257.81 83.82 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c00c1d1-ee5a-404c-8dbc-f838ae54cbfe")
-		(property "Reference" "U5"
-			(at 257.81 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 257.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "827641df-0775-4e15-8557-f13d1a6bf15d")
-		)
-		(pin "1"
-			(uuid "aae41f67-9bb8-448e-bac0-bc1533de1f72")
-		)
-		(pin "7"
-			(uuid "ba580e60-da73-420c-b142-90d7b05f432a")
-		)
-		(pin "2"
-			(uuid "9ceb0917-b0ce-49c8-ac2f-1e66977367cc")
-		)
-		(pin "3"
-			(uuid "994a88c4-d0e3-4120-ba22-f40441471253")
-		)
-		(pin "4"
-			(uuid "37de111d-75d0-4aae-b796-51ec86b7faf0")
-		)
-		(pin "5"
-			(uuid "75ccca9a-3936-4860-8832-9e29701ab653")
-		)
-		(pin "6"
-			(uuid "28c91e06-671c-4a04-b854-fad397383635")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U5")
-					(unit 2)
 				)
 			)
 		)
@@ -13709,6 +13408,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 257.81 83.82 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a63813e6-bc63-4bf7-ab55-8f8b4d3d1b7f")
+		(property "Reference" "U7"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 259.08 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 257.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "430fe140-f3f1-4302-a73e-cb9f5eeec4db")
+		)
+		(pin "3"
+			(uuid "2fc7a6bf-96e1-42a1-a25c-5f26ead781d6")
+		)
+		(pin "12"
+			(uuid "f7e6f65e-9f14-4946-99bc-e872096ac44f")
+		)
+		(pin "14"
+			(uuid "5ccf52a1-af5f-45c6-b7bf-ae4e1a06348b")
+		)
+		(pin "4"
+			(uuid "0dd3620a-3b05-4efa-a904-21cc34dba025")
+		)
+		(pin "11"
+			(uuid "4f458e1a-622e-4e4a-8f92-2658909fcd02")
+		)
+		(pin "6"
+			(uuid "41bed6bc-fb64-404b-9ee8-6dc3366aed8b")
+		)
+		(pin "9"
+			(uuid "ea3f0afa-2460-4ece-b2d6-951bf9ed733b")
+		)
+		(pin "5"
+			(uuid "903d8d5a-22b5-459c-9ef0-95d1e238626d")
+		)
+		(pin "1"
+			(uuid "050493ab-fae2-49fc-b6f7-69dc3e512e75")
+		)
+		(pin "2"
+			(uuid "00ea525c-2ac4-428f-8d98-af61384b7d85")
+		)
+		(pin "7"
+			(uuid "614ff61f-868c-49b6-a14a-902fcb811197")
+		)
+		(pin "10"
+			(uuid "c5c75621-d851-4c60-8bb0-83343d9706db")
+		)
+		(pin "8"
+			(uuid "90750e59-55be-4ee6-9512-e910982edac7")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 49.53 165.1 270)
 		(unit 1)
@@ -14046,6 +13849,112 @@
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "C31")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 394.97 33.02 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfce14f0-7366-4bdb-9659-5b74fc859f8a")
+		(property "Reference" "U7"
+			(at 393.7 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL074"
+			(at 393.7 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 396.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 394.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "430fe140-f3f1-4302-a73e-cb9f5eeec4db")
+		)
+		(pin "3"
+			(uuid "2fc7a6bf-96e1-42a1-a25c-5f26ead781d6")
+		)
+		(pin "12"
+			(uuid "f7e6f65e-9f14-4946-99bc-e872096ac44f")
+		)
+		(pin "14"
+			(uuid "5ccf52a1-af5f-45c6-b7bf-ae4e1a06348b")
+		)
+		(pin "4"
+			(uuid "0dd3620a-3b05-4efa-a904-21cc34dba025")
+		)
+		(pin "11"
+			(uuid "4f458e1a-622e-4e4a-8f92-2658909fcd02")
+		)
+		(pin "6"
+			(uuid "41bed6bc-fb64-404b-9ee8-6dc3366aed8b")
+		)
+		(pin "9"
+			(uuid "ea3f0afa-2460-4ece-b2d6-951bf9ed733b")
+		)
+		(pin "5"
+			(uuid "903d8d5a-22b5-459c-9ef0-95d1e238626d")
+		)
+		(pin "1"
+			(uuid "050493ab-fae2-49fc-b6f7-69dc3e512e75")
+		)
+		(pin "2"
+			(uuid "00ea525c-2ac4-428f-8d98-af61384b7d85")
+		)
+		(pin "7"
+			(uuid "614ff61f-868c-49b6-a14a-902fcb811197")
+		)
+		(pin "10"
+			(uuid "c5c75621-d851-4c60-8bb0-83343d9706db")
+		)
+		(pin "8"
+			(uuid "90750e59-55be-4ee6-9512-e910982edac7")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "U7")
+					(unit 5)
 				)
 			)
 		)
@@ -15393,92 +15302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 257.81 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efb9cd8b-b4c2-4e6e-829b-fe8c039a9d95")
-		(property "Reference" "U5"
-			(at 257.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 257.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 257.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 257.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5aea8d5a-7696-4a5d-8ee0-cddf0cac251e")
-		)
-		(pin "6"
-			(uuid "af374800-2687-4058-affd-a9e330670de4")
-		)
-		(pin "5"
-			(uuid "c90bdbe5-fb16-4ecb-84dd-a2ce4f987e95")
-		)
-		(pin "1"
-			(uuid "6205ad60-e272-4661-b495-14ff4a1a3f4e")
-		)
-		(pin "3"
-			(uuid "7ac2c142-047a-433f-8169-327194009470")
-		)
-		(pin "4"
-			(uuid "23a580d3-eb82-4e23-9969-f87b5624861c")
-		)
-		(pin "7"
-			(uuid "b293b02d-d03d-4af6-871d-a564a226472f")
-		)
-		(pin "8"
-			(uuid "cb9dffde-3b99-489f-b64f-adf9aadc2025")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
 		(at 67.31 228.6 0)
 		(mirror x)
@@ -15544,6 +15367,110 @@
 				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
 					(reference "J7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 312.42 66.04 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1d53f25-8fb7-49c7-a4a0-82cc2cca8b1a")
+		(property "Reference" "U7"
+			(at 312.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 312.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(at 313.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 312.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "430fe140-f3f1-4302-a73e-cb9f5eeec4db")
+		)
+		(pin "3"
+			(uuid "2fc7a6bf-96e1-42a1-a25c-5f26ead781d6")
+		)
+		(pin "12"
+			(uuid "f7e6f65e-9f14-4946-99bc-e872096ac44f")
+		)
+		(pin "14"
+			(uuid "5ccf52a1-af5f-45c6-b7bf-ae4e1a06348b")
+		)
+		(pin "4"
+			(uuid "0dd3620a-3b05-4efa-a904-21cc34dba025")
+		)
+		(pin "11"
+			(uuid "4f458e1a-622e-4e4a-8f92-2658909fcd02")
+		)
+		(pin "6"
+			(uuid "41bed6bc-fb64-404b-9ee8-6dc3366aed8b")
+		)
+		(pin "9"
+			(uuid "ea3f0afa-2460-4ece-b2d6-951bf9ed733b")
+		)
+		(pin "5"
+			(uuid "903d8d5a-22b5-459c-9ef0-95d1e238626d")
+		)
+		(pin "1"
+			(uuid "050493ab-fae2-49fc-b6f7-69dc3e512e75")
+		)
+		(pin "2"
+			(uuid "00ea525c-2ac4-428f-8d98-af61384b7d85")
+		)
+		(pin "7"
+			(uuid "614ff61f-868c-49b6-a14a-902fcb811197")
+		)
+		(pin "10"
+			(uuid "c5c75621-d851-4c60-8bb0-83343d9706db")
+		)
+		(pin "8"
+			(uuid "90750e59-55be-4ee6-9512-e910982edac7")
+		)
+		(instances
+			(project ""
+				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
+					(reference "U7")
+					(unit 3)
 				)
 			)
 		)
@@ -15684,94 +15611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 393.7 33.02 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5160e67-2173-49dd-b256-468576ff942b")
-		(property "Reference" "U6"
-			(at 392.43 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 392.43 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 393.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 393.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "0a35ae6a-ac94-44d1-87f5-1e150a45ab94")
-		)
-		(pin "4"
-			(uuid "d4fc4f07-46fa-4cfe-9301-73a6ea3377ea")
-		)
-		(pin "1"
-			(uuid "24b67ac6-eca4-4aa8-bd26-fbc6affe9abd")
-		)
-		(pin "2"
-			(uuid "4d2491f8-5ac3-44bd-968a-e25631646cd5")
-		)
-		(pin "3"
-			(uuid "cd0d8143-3576-418a-9b3f-22fc9bb905f8")
-		)
-		(pin "7"
-			(uuid "a0b9d95d-50af-40e2-9234-af05f353f157")
-		)
-		(pin "6"
-			(uuid "dbf017f5-ec27-4fe2-bf94-1f45d138e3a3")
-		)
-		(pin "5"
-			(uuid "de98e14e-14ac-4a93-8666-bf262bd766a7")
-		)
-		(instances
-			(project ""
-				(path "/512e3d9b-1648-4f09-9748-8ed1e9d71853"
-					(reference "U6")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 217.17 270)
 		(unit 1)
@@ -15855,7 +15694,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 367.03 34.036 0)
 			(effects
 				(font
