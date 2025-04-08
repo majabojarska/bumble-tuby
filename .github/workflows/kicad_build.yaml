@@ -33,7 +33,7 @@ jobs:
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-          apt update && apt install make csvkit -y
+          apt update && apt install make csvkit gh -y
 
       - name: Link KiCad .config dir to root equivalent
         run: |
@@ -73,8 +73,8 @@ jobs:
 
             [1]: https://github.com/peter-evans/create-pull-request
 
-      - uses: peter-evans/enable-pull-request-automerge@v3
+      - name: Enable automerge
         if: ${{ steps.create-pull-request.outputs.pull-request-number }}
-        with:
-          token: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
-          pull-request-number: ${{ steps.create-pull-request.outputs.pull-request-number }}
+        run: gh pr merge --merge --auto "${{ steps.create-pull-request.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.AMP_ARTIFACT_UPDATE_GITHUB_TOKEN }}
