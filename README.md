@@ -36,7 +36,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - [x] Consider poweramp alternatives
   - TPA3110
 - [x] Make buffer bias voltage adjustable
-- [ ] Fix tube biasing
+- [x] Fix tube biasing
 - [x] Buffer triode outputs (plates)
 - [ ] Add a tone control section.
   - Between tube stages?
@@ -47,7 +47,11 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - [x] Split design into separate subschematics
   - How to express connections?
   - [Hierarchical sheets in KiCad](https://docs.kicad.org/9.0/en/eeschema/eeschema.html#drawing-hierarchical-sheets)
-- [ ] Add stereo line-in, [signal mixing](https://electronics.stackexchange.com/questions/103435/naively-mixing-two-or-perhaps-more-audio-signals)
+- [x] Add stereo line-in, [signal mixing](https://electronics.stackexchange.com/questions/103435/naively-mixing-two-or-perhaps-more-audio-signals)
+- [x] Attenuate FX send 20x, and then on return amplify it by 20x
+  - Floor pedals can't handle the 8Vpp the preamp outputs
+  - The whole FX section should by itself have unity gain, if the send and return are shorted.
+- [ ] Add split-rail opamp bias source
 - [ ] Design perfboard layout
 
 ### CI
