@@ -58,7 +58,7 @@ To me it's mostly about learning, having fun, and building something tangible.
 - [ ] Split design into multiple sheets
 - [ ] Add a tone control section.
   - Big muff style single-pot tone control seems nice and simple.
-  - After tube, before output buffer?
+  - After tube, before output buffer? Alternatively, right after gain stage, before first triode.
 - [ ] Add screw terminals for vacuum tube connections
 - [ ] Does this require ripple rejection?
 - [ ] Revisit tube input biasing, something seems off. Verify on breadboard.
