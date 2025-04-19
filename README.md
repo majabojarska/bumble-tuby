@@ -52,6 +52,7 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
   - Floor pedals can't handle the 8Vpp the preamp outputs
   - The whole FX section should by itself have unity gain, if the send and return are shorted.
 - [ ] Add split-rail opamp bias source
+- [ ] Split design into multiple sheets
 - [ ] Design perfboard layout
 
 ### CI
