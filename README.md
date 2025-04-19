@@ -3,15 +3,21 @@
 [![Build](https://github.com/majabojarska/bumble-tuby/actions/workflows/kicad_build.yaml/badge.svg)](https://github.com/majabojarska/majabojarska.dev/actions/workflows/kicad_build.yaml)
 [![ERC](https://github.com/majabojarska/bumble-tuby/actions/workflows/kicad_check.yaml/badge.svg)](https://github.com/majabojarska/majabojarska.dev/actions/workflows/kicad_check.yaml)
 
-This is a simple, hybrid guitar amplifier, made as a hobby project.
+This is a relatively simple, hybrid guitar amplifier, made as a hobby project.
+To me it's mostly about learning, having fun, and building something tangible.
 
 ![DSO capture of amplification stage outputs](static/dso_sine_amplification.webp)
 
 ## Features
 
-- Runs off of a single 12V DC supply.
-- Pre-amp based on the 12AX7 vacuum tube.
-- Power amplifier based on the LM386 IC.
+- Runs off of a single 12V DC supply
+- Pre-amp based on the 12AU7 vacuum tube
+- FX loop
+- Tone control section
+- Line in
+- Solid state power amplifiers (headphones, speaker)
+  - Class D mono speaker amp
+  - Class A stereo headphone amp
 
 [![Schematic](static/amp.svg?raw=true)](static/amp.pdf)
 
@@ -38,9 +44,6 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - [x] Make buffer bias voltage adjustable
 - [x] Fix tube biasing
 - [x] Buffer triode outputs (plates)
-- [ ] Add a tone control section.
-  - Between tube stages?
-- [ ] Add screw terminals for vacuum tube connections
 - [x] Mute speaker PA when headphone jack plugged in
 - [x] Add headphone PA
 - [x] Add gain adjustment for the power section (LM386 pins 1-8)
@@ -51,13 +54,21 @@ This is a simple, hybrid guitar amplifier, made as a hobby project.
 - [x] Attenuate FX send 20x, and then on return amplify it by 20x
   - Floor pedals can't handle the 8Vpp the preamp outputs
   - The whole FX section should by itself have unity gain, if the send and return are shorted.
-- [ ] Add split-rail opamp bias source
+- [x] Add split-rail opamp bias source
 - [ ] Split design into multiple sheets
-- [ ] Design perfboard layout
+- [ ] Add a tone control section.
+  - Big muff style single-pot tone control seems nice and simple.
+  - After tube, before output buffer?
+- [ ] Add screw terminals for vacuum tube connections
+- [ ] Does this require ripple rejection?
+- [ ] Revisit tube input biasing, something seems off. Verify on breadboard.
+- [ ] Simulate pre-amp in SPICE
+- [ ] Design perfboard layouts
 
 ### CI
 
 - [ ] Render BOM into README, as a Markdown table.
+- [ ] Auto update schematic date during artifact update workflow.
 
 ## Credits
 
